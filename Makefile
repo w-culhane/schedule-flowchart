@@ -15,7 +15,7 @@ svg: $(SVGS)
 	inkscape $^ --batch-process --export-area-drawing -o $@
 
 %.svg: %.gv
-	dot -Tsvg $^ -o $@
+	dot -Tsvg:cairo $^ -o $@
 
 clean:
 	rm -f $(PDFS)
