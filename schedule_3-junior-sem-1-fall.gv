@@ -25,7 +25,7 @@ digraph schedule {
     <TR>
     <TD>ECHM 307</TD>
     <TD>11:00-11:50</TD>
-    <TD>REID 105</TD>
+    <TD>LEWIS 304</TD>
     </TR>
     <TR><TD COLSPAN="3">Thermodynamics 1</TD></TR>
     </TABLE>>];
@@ -35,7 +35,7 @@ digraph schedule {
     <TR>
     <TD>EELE 467</TD>
     <TD>16:10-17:00</TD>
-    <TD>ROBERT 210</TD>
+    <TD>NAH 337</TD>
     </TR>
     <TR><TD COLSPAN="3">SoC FPGAs 1</TD></TR>
     </TABLE>>];
@@ -93,7 +93,7 @@ digraph schedule {
     <TR>
     <TD>ECHM 307</TD>
     <TD>11:00-11:50</TD>
-    <TD>REID 105</TD>
+    <TD>LEWIS 304</TD>
     </TR>
     <TR><TD COLSPAN="3">Thermodynamics 1</TD></TR>
     </TABLE>>];
@@ -123,7 +123,7 @@ digraph schedule {
     <TR>
     <TD>EELE 467</TD>
     <TD>16:10-17:00</TD>
-    <TD>ROBERT 210</TD>
+    <TD>NAH 337</TD>
     </TR>
     <TR><TD COLSPAN="3">SoC FPGAs 1</TD></TR>
     </TABLE>>];
@@ -181,7 +181,7 @@ digraph schedule {
     <TR>
     <TD>ECHM 307</TD>
     <TD>11:00-11:50</TD>
-    <TD>REID 105</TD>
+    <TD>LEWIS 304</TD>
     </TR>
     <TR><TD COLSPAN="3">Thermodynamics 1</TD></TR>
     </TABLE>>];
@@ -191,7 +191,7 @@ digraph schedule {
     <TR>
     <TD>EELE 467</TD>
     <TD>16:10-17:00</TD>
-    <TD>ROBERT 210</TD>
+    <TD>NAH 337</TD>
     </TR>
     <TR><TD COLSPAN="3">SoC FPGAs 1</TD></TR>
     </TABLE>>];
