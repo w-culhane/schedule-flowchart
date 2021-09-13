@@ -7,7 +7,7 @@ digraph schedule {
     }
 
     {node [shape=none, margin=0]
-        subgraph clustermonday { rank = same; "Monday"; "ECHM322-m"; "ECHM307-m"; "EELE467-m"; "WORK-m"; "RUN-m"; }
+        subgraph clustermonday { rank = same; "Monday"; "ECHM322-m"; "ECHM307-m"; "WORK-m"; "EELE467-m"; "RUN-m"; }
     }
 
     "ECHM322-m" [label=<
@@ -223,7 +223,7 @@ digraph schedule {
     </TABLE>>];
 
     {node [shape=none, margin=0]
-        subgraph clusterfriday { rank = same; "Friday"; "ECHM322-f"; "ECHM307-f"; "EELE467-f"; "WORK-f"; "RUN-f"; }
+        subgraph clusterfriday { rank = same; "Friday"; "ECHM322-f"; "ECHM307-f"; "WORK-f"; "EELE467-f"; "RUN-f"; }
     }
 
     "ECHM322-f" [label=<
