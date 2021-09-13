@@ -7,7 +7,7 @@ digraph schedule {
     }
 
     {node [shape=none, margin=0]
-        subgraph clustermonday { rank = same; "Monday"; "ECHM322-m"; "ECHM307-m"; "EELE467-m"; "RUN-m"; }
+        subgraph clustermonday { rank = same; "Monday"; "ECHM322-m"; "ECHM307-m"; "EELE467-m"; "WORK-m"; "RUN-m"; }
     }
 
     "ECHM322-m" [label=<
@@ -40,6 +40,16 @@ digraph schedule {
     <TR><TD COLSPAN="3">SoC FPGAs 1</TD></TR>
     </TABLE>>];
 
+    "WORK-m" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>WORK</TD>
+    <TD>14:00-16:00</TD>
+    <TD>CBB 224</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Lab Work</TD></TR>
+    </TABLE>>];
+
     "RUN-m" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
     <TR>
@@ -51,7 +61,7 @@ digraph schedule {
     </TABLE>>];
 
     {node [shape=none, margin=0]
-        subgraph clustertuesday { rank = same; "Tuesday"; "ECNS251IS-t"; "ECHM321-t"; "EELE467-t-lab" "RUN-t"; }
+        subgraph clustertuesday { rank = same; "Tuesday"; "ECNS251IS-t"; "ECHM321-t"; "EELE467-t-lab"; "WORK-t"; "RUN-t"; }
     }
 
     "ECNS251IS-t" [label=<
@@ -82,6 +92,16 @@ digraph schedule {
     <TD>COBLEI 601</TD>
     </TR>
     <TR><TD COLSPAN="3">[LAB] SoC FPGAs 1</TD></TR>
+    </TABLE>>];
+
+    "WORK-t" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>WORK</TD>
+    <TD>14:00-16:00</TD>
+    <TD>CBB 224</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Lab Work</TD></TR>
     </TABLE>>];
 
     "RUN-t" [label=<
@@ -203,7 +223,7 @@ digraph schedule {
     </TABLE>>];
 
     {node [shape=none, margin=0]
-        subgraph clusterfriday { rank = same; "Friday"; "ECHM322-f"; "ECHM307-f"; "EELE467-f"; "RUN-f"; }
+        subgraph clusterfriday { rank = same; "Friday"; "ECHM322-f"; "ECHM307-f"; "EELE467-f"; "WORK-f"; "RUN-f"; }
     }
 
     "ECHM322-f" [label=<
@@ -234,6 +254,16 @@ digraph schedule {
     <TD>NAH 337</TD>
     </TR>
     <TR><TD COLSPAN="3">SoC FPGAs 1</TD></TR>
+    </TABLE>>];
+
+    "WORK-f" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+    <TR>
+    <TD>WORK</TD>
+    <TD>14:00-16:00</TD>
+    <TD>CBB 224</TD>
+    </TR>
+    <TR><TD COLSPAN="3">Lab Work</TD></TR>
     </TABLE>>];
 
     "RUN-f" [label=<
