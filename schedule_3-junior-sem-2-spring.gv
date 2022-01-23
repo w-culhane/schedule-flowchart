@@ -45,7 +45,7 @@ digraph schedule {
     <TR>
     <TD>EELE 468</TD>
     <TD>14:10-15:00</TD>
-    <TD>ROBERT 312</TD>
+    <TD>COBLEI 620</TD>
     </TR>
     <TR><TD COLSPAN="3">SoC FPGAs 2</TD></TR>
     </TABLE>>];
@@ -143,7 +143,7 @@ digraph schedule {
     <TR>
     <TD>EELE 468</TD>
     <TD>14:10-15:00</TD>
-    <TD>ROBERT 312</TD>
+    <TD>COBLEI 620</TD>
     </TR>
     <TR><TD COLSPAN="3">SoC FPGAs 2</TD></TR>
     </TABLE>>];
@@ -221,7 +221,7 @@ digraph schedule {
     <TR>
     <TD>EELE 468</TD>
     <TD>14:10-15:00</TD>
-    <TD>ROBERT 312</TD>
+    <TD>COBLEI 620</TD>
     </TR>
     <TR><TD COLSPAN="3">SoC FPGAs 2</TD></TR>
     </TABLE>>];
