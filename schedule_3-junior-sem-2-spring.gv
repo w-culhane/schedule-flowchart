@@ -103,9 +103,9 @@ digraph schedule {
 		     <TR><TD COLSPAN="3">[LAB] SoC FPGAs 2</TD></TR>
 		     </TABLE>>];
 
-		     {node [shape=none, margin=0]
-			 subgraph clusterwednesday { rank = same; "Wednesday"; "CHMY373-w"; "EELE201-w"; "EBIO438-w"; "EELE468-w"; }
-		     }
+    {node [shape=none, margin=0]
+	subgraph clusterwednesday { rank = same; "Wednesday"; "CHMY373-w"; "EELE201-w"; "EBIO438-w"; "EELE468-w"; }
+    }
 
     "CHMY373-w" [label=<
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
@@ -224,4 +224,4 @@ digraph schedule {
 		 </TR>
 		 <TR><TD COLSPAN="3">SoC FPGAs 2</TD></TR>
 		 </TABLE>>];
-	     }
+}
