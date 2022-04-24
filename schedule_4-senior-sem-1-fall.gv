@@ -1,0 +1,197 @@
+digraph schedule {
+    ranksep=.75; rankdir=LR; splines=false;
+
+    {node [shape=plaintext,fontsize=16];
+	"Monday" -> "Tuesday" -> "Wednesday" -> "Thursday" -> "Friday";
+    }
+
+    {node [shape=none, margin=0]
+	subgraph clustermonday { rank = same; "Monday"; "CSCI460-m"; "EELE203-m"; "ECHM451-m"; "ECHM442-m-lab"; }
+    }
+
+    "CSCI460-m" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>CSCI 460</TD>
+		 <TD>08:00-08:50</TD>
+		 <TD>BARNAR 108</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Operating Systems</TD></TR>
+		 </TABLE>>];
+
+    "EELE203-m" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 203</TD>
+		 <TD>10:00-10:50</TD>
+		 <TD>NAH 153</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Circuits 2</TD></TR>
+		 </TABLE>>];
+
+    "ECHM451-m" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>ECHM 451</TD>
+		 <TD>13:10-14:00</TD>
+		 <TD>BARNAR 126</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Process Dynamics and Control</TD></TR>
+		 </TABLE>>];
+
+    "ECHM442-m-lab" [label=<
+		     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		     <TR>
+		     <TD>ECHM 442</TD>
+		     <TD>15:10-18:30</TD>
+		     <TD>BARNAR 137</TD>
+		     </TR>
+		     <TR><TD COLSPAN="3">[LAB] Chemical Engineering Lab 1</TD></TR>
+		     </TABLE>>];
+
+    {node [shape=none, margin=0]
+	subgraph clustertuesday { rank = same; "Tuesday"; "ECHM442-t"; "EELE203-t-lab"; "ECHM328-t"; "ECHM411R-t"; }
+    }
+
+    "ECHM442-t" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>ECHM 442</TD>
+		 <TD>08:00-08:50</TD>
+		 <TD>REID 103</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Chemical Engineering Lab 1</TD></TR>
+		 </TABLE>>];
+
+    "EELE203-t-lab" [label=<
+		     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		     <TR>
+		     <TD>EELE 203</TD>
+		     <TD>10:00-11:50</TD>
+		     <TD>NAH 230</TD>
+		     </TR>
+		     <TR><TD COLSPAN="3">[LAB] Circuits 2</TD></TR>
+		     </TABLE>>];
+
+    "ECHM328-t" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>ECHM 328</TD>
+		 <TD>10:50-12:05</TD>
+		 <TD>NAH 153</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Reactor Design</TD></TR>
+		 </TABLE>>];
+
+    "ECHM411R-t" [label=<
+		  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		  <TR>
+		  <TD>ECHM 411R</TD>
+		  <TD>13:40-14:55</TD>
+		  <TD>ROMNEY 211</TD>
+		  </TR>
+		  <TR><TD COLSPAN="3">Chemical Engineering Design 1</TD></TR>
+		  </TABLE>>];
+
+    {node [shape=none, margin=0]
+	subgraph clusterwednesday { rank = same; "Wednesday"; "CSCI460-w"; "EELE203-w"; "ECHM451-w"; }
+    }
+
+    "CSCI460-w" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>CSCI 460</TD>
+		 <TD>08:00-08:50</TD>
+		 <TD>BARNAR 108</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Operating Systems</TD></TR>
+		 </TABLE>>];
+
+    "EELE203-w" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 203</TD>
+		 <TD>10:00-10:50</TD>
+		 <TD>NAH 153</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Circuits 2</TD></TR>
+		 </TABLE>>];
+
+    "ECHM451-w" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>ECHM 451</TD>
+		 <TD>13:10-14:00</TD>
+		 <TD>BARNAR 126</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Process Dynamics and Control</TD></TR>
+		 </TABLE>>];
+
+    {node [shape=none, margin=0]
+	subgraph clusterthursday { rank = same; "Thursday"; "ECHM442-r"; "ECHM328-r"; "ECHM411R-r"; }
+    }
+
+    "ECHM442-r" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>ECHM 442</TD>
+		 <TD>08:00-08:50</TD>
+		 <TD>REID 103</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Chemical Engineering Lab 1</TD></TR>
+		 </TABLE>>];
+
+    "ECHM328-r" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>ECHM 328</TD>
+		 <TD>10:50-12:05</TD>
+		 <TD>NAH 153</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Reactor Design</TD></TR>
+		 </TABLE>>];
+
+    "ECHM411R-r" [label=<
+		  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		  <TR>
+		  <TD>ECHM 411R</TD>
+		  <TD>13:40-14:55</TD>
+		  <TD>ROMNEY 211</TD>
+		  </TR>
+		  <TR><TD COLSPAN="3">Chemical Engineering Design 1</TD></TR>
+		  </TABLE>>];
+
+    {node [shape=none, margin=0]
+	subgraph clusterfriday { rank = same; "Friday"; "CSCI460-f"; "EELE203-f"; "ECHM451-f"; }
+    }
+
+    "CSCI460-f" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>CSCI 460</TD>
+		 <TD>08:00-08:50</TD>
+		 <TD>BARNAR 108</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Operating Systems</TD></TR>
+		 </TABLE>>];
+
+    "EELE203-f" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 203</TD>
+		 <TD>10:00-10:50</TD>
+		 <TD>NAH 153</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Circuits 2</TD></TR>
+		 </TABLE>>];
+
+    "ECHM451-f" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>ECHM 451</TD>
+		 <TD>13:10-14:00</TD>
+		 <TD>BARNAR 126</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Process Dynamics and Control</TD></TR>
+		 </TABLE>>];
+}
