@@ -1,6 +1,6 @@
 .PHONY: all clean pdf svg
 
-FONT := Iosevka Curly Slab
+FONT := Iosevka Etoile
 INKARGS := --batch-process --export-area-drawing --export-margin=5
 DOTARGS := -Tsvg:cairo -Nfontname="$(FONT)" -Efontname="$(FONT)"
 
