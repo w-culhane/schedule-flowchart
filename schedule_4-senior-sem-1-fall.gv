@@ -6,7 +6,7 @@ digraph schedule {
     }
 
     {node [shape=none, margin=0]
-	subgraph clustermonday { rank = same; "Monday"; "CSCI460-m"; "EELE203-m"; "ECHM451-m"; "ECHM442-m-lab"; }
+	subgraph clustermonday { rank = same; "Monday"; "CSCI460-m"; "EELE203-m"; "WORK-m-meeting"; "ECHM451-m"; "ECHM442-m-lab"; }
     }
 
     "CSCI460-m" [label=<
@@ -28,6 +28,15 @@ digraph schedule {
 		 </TR>
 		 <TR><TD COLSPAN="3">Circuits 2</TD></TR>
 		 </TABLE>>];
+
+    "WORK-m-meeting" [label=<
+		      <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		      <TR>
+		      <TD>12:00-13:30</TD>
+		      <TD>CBB 103D</TD>
+		      </TR>
+		      <TR><TD COLSPAN="2">Lab Meeting</TD></TR>
+		      </TABLE>>];
 
     "ECHM451-m" [label=<
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
