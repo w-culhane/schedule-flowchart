@@ -35,7 +35,7 @@ digraph schedule {
 		      <TD>12:00-13:30</TD>
 		      <TD>CBB 103D</TD>
 		      </TR>
-		      <TR><TD COLSPAN="2">Lab Meeting</TD></TR>
+		      <TR><TD COLSPAN="2">Chang Lab Meeting</TD></TR>
 		      </TABLE>>];
 
     "ECHM451-m" [label=<
@@ -131,7 +131,7 @@ digraph schedule {
 		 </TABLE>>];
 
     {node [shape=none, margin=0]
-	subgraph clusterwednesday { rank = same; "Wednesday"; "CSCI460-w"; "EELE203-w"; "ECHM451-w"; "WORK-w"; "EELE467-w-TA"; "RUNNING-w"; }
+	subgraph clusterwednesday { rank = same; "Wednesday"; "CSCI460-w"; "EELE203-w"; "ECHM451-w"; "ECHM442-w-meeting"; "WORK-w"; "EELE467-w-TA"; "RUNNING-w"; }
     }
 
     "CSCI460-w" [label=<
@@ -153,6 +153,16 @@ digraph schedule {
 		 </TR>
 		 <TR><TD COLSPAN="3">Circuits 2</TD></TR>
 		 </TABLE>>];
+
+    "ECHM442-w-meeting" [label=<
+			 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+			 <TR>
+			 <TD>ECHM 442</TD>
+			 <TD>12:00-13:00</TD>
+			 <TD>COBLEI 326</TD>
+			 </TR>
+			 <TR><TD COLSPAN="3">Chemical Engineering Lab Group Meeting</TD></TR>
+			 </TABLE>>];
 
     "ECHM451-w" [label=<
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
@@ -193,7 +203,7 @@ digraph schedule {
 		 </TABLE>>];
 
     {node [shape=none, margin=0]
-	subgraph clusterthursday { rank = same; "Thursday"; "ECHM442-r"; "ECHM328-r"; "ECHM411R-r"; "WORK-r"; "RUNNING-r"; }
+	subgraph clusterthursday { rank = same; "Thursday"; "ECHM442-r"; "ECHM328-r"; "ECHM411R-r-meeting"; "ECHM411R-r"; "WORK-r"; "RUNNING-r"; }
     }
 
     "ECHM442-r" [label=<
@@ -215,6 +225,16 @@ digraph schedule {
 		 </TR>
 		 <TR><TD COLSPAN="3">Reactor Design</TD></TR>
 		 </TABLE>>];
+
+    "ECHM411R-r-meeting" [label=<
+			  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+			  <TR>
+			  <TD>ECHM 411R</TD>
+			  <TD>13:15-13:45</TD>
+			  <TD>LIBRARY</TD>
+			  </TR>
+			  <TR><TD COLSPAN="3">Design Supervisor Meeting</TD></TR>
+			  </TABLE>>];
 
     "ECHM411R-r" [label=<
 		  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
