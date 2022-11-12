@@ -6,7 +6,7 @@ digraph schedule {
     }
 
     {node [shape=none, margin=0]
-	subgraph clustermonday { rank = same; "Monday"; "CSCI460-m"; "EELE203-m"; "WORK-m-meeting"; "ECHM451-m"; "ECHM442-m-lab"; }
+	subgraph clustermonday { rank = same; "Monday"; "CSCI460-m"; "EELE203-m"; "WORK-m-meeting"; }
     }
 
     "CSCI460-m" [label=<
@@ -38,39 +38,9 @@ digraph schedule {
 		      <TR><TD COLSPAN="2">Chang Lab Meeting</TD></TR>
 		      </TABLE>>];
 
-    "ECHM451-m" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		 <TR>
-		 <TD>ECHM 451</TD>
-		 <TD>13:10-14:00</TD>
-		 <TD>BARNAR 126</TD>
-		 </TR>
-		 <TR><TD COLSPAN="3">Process Dynamics and Control</TD></TR>
-		 </TABLE>>];
-
-    "ECHM442-m-lab" [label=<
-		     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		     <TR>
-		     <TD>ECHM 442</TD>
-		     <TD>15:10-18:30</TD>
-		     <TD>BARNAR 137</TD>
-		     </TR>
-		     <TR><TD COLSPAN="3">[LAB] Chemical Engineering Lab 1</TD></TR>
-		     </TABLE>>];
-
     {node [shape=none, margin=0]
-	subgraph clustertuesday { rank = same; "Tuesday"; "ECHM442-t"; "EELE203-t-lab"; "ECHM328-t"; "EELE467-t-TA"; "ECHM411R-t"; "WORK-t"; "RUNNING-t"; }
+	subgraph clustertuesday { rank = same; "Tuesday"; "EELE203-t-lab"; "ECHM328-t"; "EELE467-t-TA"; "ECHM411R-t"; "WORK-t"; "RUNNING-t"; }
     }
-
-    "ECHM442-t" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		 <TR>
-		 <TD>ECHM 442</TD>
-		 <TD>08:00-09:15</TD>
-		 <TD>REID 103</TD>
-		 </TR>
-		 <TR><TD COLSPAN="3">Chemical Engineering Lab 1</TD></TR>
-		 </TABLE>>];
 
     "EELE203-t-lab" [label=<
 		     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
@@ -131,7 +101,7 @@ digraph schedule {
 		 </TABLE>>];
 
     {node [shape=none, margin=0]
-	subgraph clusterwednesday { rank = same; "Wednesday"; "CSCI460-w"; "EELE203-w"; "ECHM451-w"; "ECHM442-w-meeting"; "WORK-w"; "EELE467-w-TA"; "RUNNING-w"; }
+	subgraph clusterwednesday { rank = same; "Wednesday"; "CSCI460-w"; "EELE203-w"; "WORK-w"; "EELE467-w-TA"; "RUNNING-w"; }
     }
 
     "CSCI460-w" [label=<
@@ -152,26 +122,6 @@ digraph schedule {
 		 <TD>NAH 153</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Circuits 2</TD></TR>
-		 </TABLE>>];
-
-    "ECHM442-w-meeting" [label=<
-			 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-			 <TR>
-			 <TD>ECHM 442</TD>
-			 <TD>12:00-13:00</TD>
-			 <TD>COBLEI 326</TD>
-			 </TR>
-			 <TR><TD COLSPAN="3">Chemical Engineering Lab Group Meeting</TD></TR>
-			 </TABLE>>];
-
-    "ECHM451-w" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		 <TR>
-		 <TD>ECHM 451</TD>
-		 <TD>13:10-14:00</TD>
-		 <TD>BARNAR 126</TD>
-		 </TR>
-		 <TR><TD COLSPAN="3">Process Dynamics and Control</TD></TR>
 		 </TABLE>>];
 
     "WORK-w" [label=<
@@ -203,18 +153,8 @@ digraph schedule {
 		 </TABLE>>];
 
     {node [shape=none, margin=0]
-	subgraph clusterthursday { rank = same; "Thursday"; "ECHM442-r"; "ECHM328-r"; "ECHM411R-r-meeting"; "ECHM411R-r"; "WORK-r"; "RUNNING-r"; }
+	subgraph clusterthursday { rank = same; "Thursday"; "ECHM328-r"; "ECHM411R-r-meeting"; "ECHM411R-r"; "WORK-r"; "RUNNING-r"; }
     }
-
-    "ECHM442-r" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		 <TR>
-		 <TD>ECHM 442</TD>
-		 <TD>08:00-09:15</TD>
-		 <TD>REID 103</TD>
-		 </TR>
-		 <TR><TD COLSPAN="3">Chemical Engineering Lab 1</TD></TR>
-		 </TABLE>>];
 
     "ECHM328-r" [label=<
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
@@ -265,7 +205,7 @@ digraph schedule {
 		 </TABLE>>];
 
     {node [shape=none, margin=0]
-	subgraph clusterfriday { rank = same; "Friday"; "CSCI460-f"; "EELE203-f"; "ECHM451-f"; "WORK-f"; "EELE467-f-TA"; "RUNNING-f"; }
+	subgraph clusterfriday { rank = same; "Friday"; "CSCI460-f"; "EELE203-f"; "WORK-f"; "EELE467-f-TA"; "RUNNING-f"; }
     }
 
     "CSCI460-f" [label=<
@@ -286,16 +226,6 @@ digraph schedule {
 		 <TD>NAH 153</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Circuits 2</TD></TR>
-		 </TABLE>>];
-
-    "ECHM451-f" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		 <TR>
-		 <TD>ECHM 451</TD>
-		 <TD>13:10-14:00</TD>
-		 <TD>BARNAR 126</TD>
-		 </TR>
-		 <TR><TD COLSPAN="3">Process Dynamics and Control</TD></TR>
 		 </TABLE>>];
 
     "WORK-f" [label=<
