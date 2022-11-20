@@ -6,7 +6,7 @@ digraph schedule {
     }
 
     {node [shape=none, margin=0]
-	subgraph clustermonday { rank = same; "Monday"; "EELE317-m"; "ECHM407-m"; "ECHM424-m"; "EELE308-m"; }
+	subgraph clustermonday { rank = same; "Monday"; "EELE317-m"; "ECHM407-m"; "ECHM424-m"; "EELE468-m-TA"; "EELE308-m"; }
     }
 
     "EELE317-m" [label=<
@@ -39,6 +39,16 @@ digraph schedule {
 		 <TR><TD COLSPAN="3">Transport Analysis</TD></TR>
 		 </TABLE>>];
 
+    "EELE468-m-TA" [label=<
+		    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		    <TR>
+		    <TD>EELE 468</TD>
+		    <TD>14:10-15:00</TD>
+		    <TD>NAH 337</TD>
+		    </TR>
+		    <TR><TD COLSPAN="3">[TA] SoC FPGAs 2</TD></TR>
+		    </TABLE>>];
+
     "EELE308-m" [label=<
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
@@ -50,7 +60,7 @@ digraph schedule {
 		 </TABLE>>];
 
     {node [shape=none, margin=0]
-	subgraph clustertuesday { rank = same; "Tuesday"; "EELE317-t-lab"; "ECHM412R-t"; "EELE308-t"; }
+	subgraph clustertuesday { rank = same; "Tuesday"; "EELE317-t-lab"; "ECHM412R-t"; "EELE468-t-TA"; "EELE308-t"; }
     }
 
     "EELE317-t-lab" [label=<
@@ -73,6 +83,16 @@ digraph schedule {
 		  <TR><TD COLSPAN="3">Chemical Engineering Design 2</TD></TR>
 		  </TABLE>>];
 
+    "EELE468-t-TA" [label=<
+		    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		    <TR>
+		    <TD>EELE 468</TD>
+		    <TD>14:10-16:00</TD>
+		    <TD>COBLEI 601</TD>
+		    </TR>
+		    <TR><TD COLSPAN="3">[TA LAB] SoC FPGAs 2</TD></TR>
+		    </TABLE>>];
+
     "EELE308-t" [label=<
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
@@ -84,7 +104,7 @@ digraph schedule {
 		 </TABLE>>];
 
     {node [shape=none, margin=0]
-	subgraph clusterwednesday { rank = same; "Wednesday"; "EELE317-w"; "ECHM407-w"; "ECHM424-w"; "EELE308-w"; "ECHM443-w"; }
+	subgraph clusterwednesday { rank = same; "Wednesday"; "EELE317-w"; "ECHM407-w"; "ECHM424-w"; "EELE468-w-TA"; "EELE308-w"; "ECHM443-w"; }
     }
 
     "EELE317-w" [label=<
@@ -116,6 +136,16 @@ digraph schedule {
 		 </TR>
 		 <TR><TD COLSPAN="3">Transport Analysis</TD></TR>
 		 </TABLE>>];
+
+    "EELE468-w-TA" [label=<
+		    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		    <TR>
+		    <TD>EELE 468</TD>
+		    <TD>14:10-15:00</TD>
+		    <TD>NAH 337</TD>
+		    </TR>
+		    <TR><TD COLSPAN="3">[TA] SoC FPGAs 2</TD></TR>
+		    </TABLE>>];
 
     "EELE308-w" [label=<
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
@@ -162,7 +192,7 @@ digraph schedule {
 		 </TABLE>>];
 
     {node [shape=none, margin=0]
-	subgraph clusterfriday { rank = same; "Friday"; "EELE317-f"; "ECHM407-f"; "ECHM424-f"; "EELE308-f"; }
+	subgraph clusterfriday { rank = same; "Friday"; "EELE317-f"; "ECHM407-f"; "ECHM424-f"; "EELE468-f-TA"; "EELE308-f"; }
     }
 
     "EELE317-f" [label=<
@@ -194,6 +224,16 @@ digraph schedule {
 		 </TR>
 		 <TR><TD COLSPAN="3">Transport Analysis</TD></TR>
 		 </TABLE>>];
+
+    "EELE468-f-TA" [label=<
+		    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		    <TR>
+		    <TD>EELE 468</TD>
+		    <TD>14:10-15:00</TD>
+		    <TD>NAH 337</TD>
+		    </TR>
+		    <TR><TD COLSPAN="3">[TA] SoC FPGAs 2</TD></TR>
+		    </TABLE>>];
 
     "EELE308-f" [label=<
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
