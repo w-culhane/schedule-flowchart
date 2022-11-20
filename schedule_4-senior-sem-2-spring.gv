@@ -192,7 +192,7 @@ digraph schedule {
 		 </TABLE>>];
 
     {node [shape=none, margin=0]
-	subgraph clusterfriday { rank = same; "Friday"; "EELE317-f"; "ECHM407-f"; "ECHM424-f"; "EELE468-f-TA"; "EELE308-f"; }
+	subgraph clusterfriday { rank = same; "Friday"; "EELE317-f"; "ECHM424-f"; "EELE468-f-TA"; "EELE308-f"; }
     }
 
     "EELE317-f" [label=<
@@ -203,16 +203,6 @@ digraph schedule {
 		 <TD>ROBERT 412</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Electronics</TD></TR>
-		 </TABLE>>];
-
-    "ECHM407-f" [label=<
-		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-		 <TR>
-		 <TD>ECHM 407</TD>
-		 <TD>12:10-13:00</TD>
-		 <TD>ROBERT 319</TD>
-		 </TR>
-		 <TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
 		 </TABLE>>];
 
     "ECHM424-f" [label=<
