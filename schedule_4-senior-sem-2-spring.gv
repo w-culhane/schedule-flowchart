@@ -2,7 +2,7 @@ digraph schedule {
     ranksep=.75; rankdir=LR; splines=false;
 
     {node [shape=plaintext,fontsize=16];
-	"Monday" -> "Tuesday" -> "Wednesday" -> "Thursday" -> "Friday";
+	"Monday" -> "Tuesday" -> "Wednesday" -> "Thursday" -> "Friday" [style=invis];
     }
 
     {node [shape=none, margin=0]
