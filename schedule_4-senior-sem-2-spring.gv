@@ -14,7 +14,7 @@ digraph schedule {
 		 <TR>
 		 <TD>EELE 317</TD>
 		 <TD>08:00-08:50</TD>
-		 <TD>ROBERT 412</TD>
+		 <TD>ROBERT 301</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Electronics</TD></TR>
 		 </TABLE>>];
@@ -112,7 +112,7 @@ digraph schedule {
 		 <TR>
 		 <TD>EELE 317</TD>
 		 <TD>08:00-08:50</TD>
-		 <TD>ROBERT 412</TD>
+		 <TD>ROBERT 301</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Electronics</TD></TR>
 		 </TABLE>>];
@@ -200,7 +200,7 @@ digraph schedule {
 		 <TR>
 		 <TD>EELE 317</TD>
 		 <TD>08:00-08:50</TD>
-		 <TD>ROBERT 412</TD>
+		 <TD>ROBERT 301</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Electronics</TD></TR>
 		 </TABLE>>];
