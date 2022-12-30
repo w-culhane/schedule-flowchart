@@ -1,7 +1,7 @@
 digraph schedule {
     ranksep=.75; rankdir=LR; splines=false;
 
-    {node [shape=plaintext,fontsize=25];
+    {node [shape=plaintext, fontsize=20, label=<<B>\N</B>>];
 	"Monday" -> "Tuesday" -> "Wednesday" -> "Thursday" -> "Friday" [style=invis];
     }
 
