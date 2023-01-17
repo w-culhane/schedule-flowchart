@@ -6,7 +6,7 @@ digraph schedule {
     }
 
     {node [shape=none, margin=0]
-	subgraph clustermonday { rank = same; "Monday"; "EELE317-m"; "ECHM407-m"; "ECHM424-m"; "EELE468-m-TA"; "EELE308-m"; }
+	subgraph clustermonday { rank = same; "Monday"; "EELE317-m"; "EELE321-m"; "ECHM424-m"; "EELE468-m-TA"; "EELE308-m"; }
     }
 
     "EELE317-m" [label=<
@@ -19,14 +19,14 @@ digraph schedule {
 		 <TR><TD COLSPAN="3">Electronics</TD></TR>
 		 </TABLE>>];
 
-    "ECHM407-m" [label=<
+    "EELE321-m" [label=<
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
-		 <TD>ECHM 407</TD>
-		 <TD>12:10-13:00</TD>
-		 <TD>ROBERT 319</TD>
+		 <TD>EELE 321</TD>
+		 <TD>12:00-12:50</TD>
+		 <TD>NAH 137</TD>
 		 </TR>
-		 <TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
+		 <TR><TD COLSPAN="3">Intro to Feedback Controls</TD></TR>
 		 </TABLE>>];
 
     "ECHM424-m" [label=<
@@ -104,7 +104,7 @@ digraph schedule {
 		 </TABLE>>];
 
     {node [shape=none, margin=0]
-	subgraph clusterwednesday { rank = same; "Wednesday"; "EELE317-w"; "ECHM407-w"; "ECHM424-w"; "EELE468-w-TA"; "EELE308-w"; "ECHM443-w"; }
+	subgraph clusterwednesday { rank = same; "Wednesday"; "EELE317-w"; "EELE321-w"; "ECHM424-w"; "EELE468-w-TA"; "EELE308-w"; "ECHM443-w"; }
     }
 
     "EELE317-w" [label=<
@@ -117,14 +117,14 @@ digraph schedule {
 		 <TR><TD COLSPAN="3">Electronics</TD></TR>
 		 </TABLE>>];
 
-    "ECHM407-w" [label=<
+    "EELE321-w" [label=<
 		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
 		 <TR>
-		 <TD>ECHM 407</TD>
-		 <TD>12:10-13:00</TD>
-		 <TD>ROBERT 319</TD>
+		 <TD>EELE 321</TD>
+		 <TD>12:00-12:50</TD>
+		 <TD>NAH 137</TD>
 		 </TR>
-		 <TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
+		 <TR><TD COLSPAN="3">Intro to Feedback Controls</TD></TR>
 		 </TABLE>>];
 
     "ECHM424-w" [label=<
@@ -192,7 +192,7 @@ digraph schedule {
 		 </TABLE>>];
 
     {node [shape=none, margin=0]
-	subgraph clusterfriday { rank = same; "Friday"; "EELE317-f"; "ECHM424-f"; "EELE468-f-TA"; "EELE308-f"; }
+	subgraph clusterfriday { rank = same; "Friday"; "EELE317-f"; "EELE321-f"; "ECHM424-f"; "EELE468-f-TA"; "EELE308-f"; }
     }
 
     "EELE317-f" [label=<
@@ -213,6 +213,16 @@ digraph schedule {
 		 <TD>ROBERT 218</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Transport Analysis</TD></TR>
+		 </TABLE>>];
+
+    "EELE321-f" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 321</TD>
+		 <TD>12:00-12:50</TD>
+		 <TD>NAH 137</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Intro to Feedback Controls</TD></TR>
 		 </TABLE>>];
 
     "EELE468-f-TA" [label=<
