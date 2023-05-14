@@ -1,0 +1,147 @@
+digraph schedule {
+    ranksep=.75; rankdir=LR; splines=false;
+
+    {node [shape=plaintext, fontsize=20, label=<<B>\N</B>>];
+	"Monday" -> "Tuesday" -> "Wednesday" -> "Thursday" -> "Friday" [style=invis];
+    }
+
+    {node [shape=none, margin=0]
+	subgraph clustermonday { rank = same; "Monday"; "CSCI466-m"; "EELE334-m"; "CSCI246-m"; }
+    }
+
+    "CSCI466-m" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>CSCI 466</TD>
+		 <TD>12:00-12:50</TD>
+		 <TD>REID 202</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Networks</TD></TR>
+		 </TABLE>>];
+
+    "EELE334-m" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 334</TD>
+		 <TD>15:10-16:00</TD>
+		 <TD>ROBERT 210</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Electromagnetic Theory 1</TD></TR>
+		 </TABLE>>];
+
+    "CSCI246-m" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>CSCI 246</TD>
+		 <TD>16:10-17:00</TD>
+		 <TD>REID 105</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Discrete Structures</TD></TR>
+		 </TABLE>>];
+
+    {node [shape=none, margin=0]
+	subgraph clustertuesday { rank = same; "Tuesday"; "EELE488R-t"; }
+    }
+
+    "EELE488R-t" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 488R</TD>
+		 <TD>15:10-17:00</TD>
+		 <TD>NAH 165</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Electrical Engineering Design 1</TD></TR>
+		 </TABLE>>];
+
+    {node [shape=none, margin=0]
+	subgraph clusterwednesday { rank = same; "Wednesday"; "HONR400-w"; "CSCI466-w"; "EELE334-w"; "CSCI246-w"; }
+    }
+
+    "HONR400-w" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>HONR 400</TD>
+		 <TD>09:00-10:50</TD>
+		 <TD>NAH 337</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Death Becomes Us</TD></TR>
+		 </TABLE>>];
+
+    "CSCI466-w" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>CSCI 466</TD>
+		 <TD>12:00-12:50</TD>
+		 <TD>REID 202</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Networks</TD></TR>
+		 </TABLE>>];
+
+    "EELE334-w" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 334</TD>
+		 <TD>15:10-16:00</TD>
+		 <TD>ROBERT 210</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Electromagnetic Theory 1</TD></TR>
+		 </TABLE>>];
+
+    "CSCI246-w" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>CSCI 246</TD>
+		 <TD>16:10-17:00</TD>
+		 <TD>REID 105</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Discrete Structures</TD></TR>
+		 </TABLE>>];
+
+    {node [shape=none, margin=0]
+	subgraph clusterthursday { rank = same; "Thursday"; }
+    }
+
+    {node [shape=none, margin=0]
+	subgraph clusterfriday { rank = same; "Friday"; "HONR400-f"; "CSCI466-f"; "EELE334-f"; "CSCI246-f"; }
+    }
+
+    "HONR400-f" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>HONR 400</TD>
+		 <TD>09:00-10:50</TD>
+		 <TD>NAH 337</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Death Becomes Us</TD></TR>
+		 </TABLE>>];
+
+    "CSCI466-f" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>CSCI 466</TD>
+		 <TD>12:00-12:50</TD>
+		 <TD>REID 202</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Networks</TD></TR>
+		 </TABLE>>];
+
+    "EELE334-f" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 334</TD>
+		 <TD>15:10-16:00</TD>
+		 <TD>ROBERT 210</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Electromagnetic Theory 1</TD></TR>
+		 </TABLE>>];
+
+    "CSCI246-f" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>CSCI 246</TD>
+		 <TD>16:10-17:00</TD>
+		 <TD>REID 105</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Discrete Structures</TD></TR>
+		 </TABLE>>];
+}
