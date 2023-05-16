@@ -6,7 +6,7 @@ digraph schedule {
     }
 
     {node [shape=none, margin=0]
-	subgraph clustermonday { rank = same; "Monday"; "CSCI466-m"; "EELE334-m"; "CSCI246-m"; }
+	subgraph clustermonday { rank = same; "Monday"; "CSCI466-m"; "EELE422-m"; "EELE334-m"; "CSCI246-m"; }
     }
 
     "CSCI466-m" [label=<
@@ -17,6 +17,16 @@ digraph schedule {
 		 <TD>REID 202</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Networks</TD></TR>
+		 </TABLE>>];
+
+    "EELE422-m" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 422</TD>
+		 <TD>14:10-15:00</TD>
+		 <TD>AJMJH 237</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Intro to Modern Control</TD></TR>
 		 </TABLE>>];
 
     "EELE334-m" [label=<
@@ -54,7 +64,7 @@ digraph schedule {
 		 </TABLE>>];
 
     {node [shape=none, margin=0]
-	subgraph clusterwednesday { rank = same; "Wednesday"; "HONR400-w"; "CSCI466-w"; "EELE334-w"; "CSCI246-w"; }
+	subgraph clusterwednesday { rank = same; "Wednesday"; "HONR400-w"; "CSCI466-w"; "EELE422-w"; "EELE334-w"; "CSCI246-w"; }
     }
 
     "HONR400-w" [label=<
@@ -75,6 +85,16 @@ digraph schedule {
 		 <TD>REID 202</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Networks</TD></TR>
+		 </TABLE>>];
+
+    "EELE422-w" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 422</TD>
+		 <TD>14:10-15:00</TD>
+		 <TD>AJMJH 237</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Intro to Modern Control</TD></TR>
 		 </TABLE>>];
 
     "EELE334-w" [label=<
@@ -102,7 +122,7 @@ digraph schedule {
     }
 
     {node [shape=none, margin=0]
-	subgraph clusterfriday { rank = same; "Friday"; "HONR400-f"; "CSCI466-f"; "EELE334-f"; "CSCI246-f"; }
+	subgraph clusterfriday { rank = same; "Friday"; "HONR400-f"; "CSCI466-f"; "EELE422-f"; "EELE334-f"; "CSCI246-f"; }
     }
 
     "HONR400-f" [label=<
@@ -123,6 +143,16 @@ digraph schedule {
 		 <TD>REID 202</TD>
 		 </TR>
 		 <TR><TD COLSPAN="3">Networks</TD></TR>
+		 </TABLE>>];
+
+    "EELE422-f" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 422</TD>
+		 <TD>14:10-15:00</TD>
+		 <TD>AJMJH 237</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Intro to Modern Control</TD></TR>
 		 </TABLE>>];
 
     "EELE334-f" [label=<
