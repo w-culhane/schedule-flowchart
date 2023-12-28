@@ -1,0 +1,157 @@
+digraph schedule {
+    ranksep=.75; rankdir=LR; splines=false;
+
+    {node [shape=plaintext, fontsize=20, label=<<B>\N</B>>];
+	"Monday" -> "Tuesday" -> "Wednesday" -> "Thursday" -> "Friday" [style=invis];
+    }
+
+    {node [shape=none, margin=0]
+	subgraph clustermonday { rank = same; "Monday"; "EELE484-m"; "ECHM407-m"; "EELE489R-m"; "HONR406-m"; }
+    }
+
+    "EELE484-m" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 484</TD>
+		 <TD>09:00-09:50</TD>
+		 <TD>NAH 149</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Laser Engineering</TD></TR>
+		 </TABLE>>];
+
+    "ECHM407-m" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>ECHM 407</TD>
+		 <TD>12:10-13:00</TD>
+		 <TD>ROBERT 319</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
+		 </TABLE>>];
+
+    "EELE489R-m" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 488R</TD>
+		 <TD>15:10-17:00</TD>
+		 <TD>NAH 137</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Electrical Engineering Design 2</TD></TR>
+		 </TABLE>>];
+
+    "HONR406-m" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>HONR 406</TD>
+		 <TD>17:10-19:00</TD>
+		 <TD>NAH 337</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Critical Perspectives in Leadership</TD></TR>
+		 </TABLE>>];
+
+    {node [shape=none, margin=0]
+	subgraph clustertuesday { rank = same; "Tuesday"; "EELE465-t"; "EELE465-t-lab"; "EELE487-t"; }
+    }
+
+    "EELE465-t" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 465</TD>
+		 <TD>09:25-10:15</TD>
+		 <TD>ROBERT 301</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Microcontroller Applications</TD></TR>
+		 </TABLE>>];
+
+    "EELE465-t-lab" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 465</TD>
+		 <TD>10:25-12:05</TD>
+		 <TD>COBLEI 601</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">[LAB] Microcontroller Applications</TD></TR>
+		 </TABLE>>];
+
+    "EELE487-t" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 487</TD>
+		 <TD>16:30-17:20</TD>
+		 <TD>ROBERT 321</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Professional Ethics</TD></TR>
+		 </TABLE>>];
+
+    {node [shape=none, margin=0]
+	subgraph clusterwednesday { rank = same; "Wednesday"; "EELE484-w"; "ECHM407-w"; "HONR406-w"; }
+    }
+
+    "EELE484-w" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 484</TD>
+		 <TD>09:00-09:50</TD>
+		 <TD>NAH 149</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Laser Engineering</TD></TR>
+		 </TABLE>>];
+
+    "ECHM407-w" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>ECHM 407</TD>
+		 <TD>12:10-13:00</TD>
+		 <TD>ROBERT 319</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Thermodynamics 2</TD></TR>
+		 </TABLE>>];
+
+    "HONR406-w" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>HONR 406</TD>
+		 <TD>17:10-19:00</TD>
+		 <TD>NAH 337</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Critical Perspectives in Leadership</TD></TR>
+		 </TABLE>>];
+
+    {node [shape=none, margin=0]
+	subgraph clusterthursday { rank = same; "Thursday"; "EELE465-r"; "EELE465-r-lab"; }
+    }
+
+    "EELE465-r" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 465</TD>
+		 <TD>09:25-10:15</TD>
+		 <TD>ROBERT 301</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Microcontroller Applications</TD></TR>
+		 </TABLE>>];
+
+    "EELE465-r-lab" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 465</TD>
+		 <TD>10:25-12:05</TD>
+		 <TD>COBLEI 601</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">[LAB] Microcontroller Applications</TD></TR>
+		 </TABLE>>];
+
+    {node [shape=none, margin=0]
+	subgraph clusterfriday { rank = same; "Friday"; "EELE484-f"; }
+    }
+
+    "EELE484-f" [label=<
+		 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+		 <TR>
+		 <TD>EELE 484</TD>
+		 <TD>09:00-09:50</TD>
+		 <TD>NAH 149</TD>
+		 </TR>
+		 <TR><TD COLSPAN="3">Laser Engineering</TD></TR>
+		 </TABLE>>];
+}
